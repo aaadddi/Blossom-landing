@@ -13,21 +13,6 @@ const Hero: React.FC = () => {
             <p className="text-xl text-gray-600">
               Zero fees. Direct funding. Built on Solana.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-3 rounded-md hover:opacity-90 transition-opacity flex items-center justify-center group">
-                <PlusCircle size={20} className="mr-2" />
-                Create a Proposal
-                <ArrowRight size={16} className="ml-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
-              </button>
-              <a 
-                href="#getting-started" 
-                className="bg-white text-purple-700 border-2 border-purple-600 px-6 py-3 rounded-md hover:bg-purple-50 transition-colors flex items-center justify-center group"
-              >
-                <ArrowRight size={20} className="mr-2" />
-                Getting Started
-                <ArrowRight size={16} className="ml-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
-              </a>
-            </div>
             
             {/* Launch Metrics */}
             <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-sm border border-gray-100">

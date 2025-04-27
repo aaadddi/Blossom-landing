@@ -88,7 +88,9 @@ const UseCases: React.FC = () => {
             Don't see your project type? No problem! If you can explain it, you can fund it.
           </p>
           <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-3 rounded-md hover:opacity-90 transition-opacity">
-            Start Your Project
+            <a href="https://fundmywork-ngy3.vercel.app/">
+              Start Your Project
+            </a>
           </button>
         </div>
       </div>

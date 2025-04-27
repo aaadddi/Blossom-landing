@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Wallet, Menu, X } from 'lucide-react';
+import { Wallet, Menu, X, ArrowRight, PlusCircle } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,10 +34,20 @@ const Header: React.FC = () => {
             <a href="#benefits" className="text-gray-700 hover:text-purple-700 transition-colors">Benefits</a>
             <a href="#use-cases" className="text-gray-700 hover:text-purple-700 transition-colors">Use Cases</a>
             <a href="#faq" className="text-gray-700 hover:text-purple-700 transition-colors">FAQ</a>
-            <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity flex items-center">
+            {/* <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity flex items-center">
               <Wallet size={18} className="mr-2" />
               Connect Wallet
-            </button>
+            </button> */}
+
+            <a 
+                href="https://fundmywork-ngy3.vercel.app/" 
+              >
+                <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-3 rounded-md hover:opacity-90 transition-opacity flex items-center justify-center group">
+                <PlusCircle size={20} className="mr-2" />
+                Get Started
+                <ArrowRight size={16} className="ml-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+              </button>
+              </a>
           </nav>
           
           {/* Mobile Menu Button */}

@@ -21,7 +21,7 @@ function App() {
         <UseCases />
         <GettingStarted />
         <EarlyAdopters />
-        <Roadmap />
+        {/* <Roadmap /> */}
         <FAQ />
       </main>
       <Footer />
