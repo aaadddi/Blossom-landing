@@ -8,7 +8,7 @@ const HowItWorks: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">How It Works</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Fund my work makes it easy to get your projects funded directly by the community in just three simple steps.
+            Blossom makes it easy to get your projects funded directly by the community in just three simple steps.
           </p>
         </div>
         

@@ -11,12 +11,12 @@ const FAQ: React.FC = () => {
   
   const faqItems: FAQItem[] = [
     {
-      question: "How does Fund my work make money if there are no fees?",
+      question: "How does Blossom make money if there are no fees?",
       answer: "We're focusing on building a strong community and platform first. In the future, we may introduce optional premium features, but the core functionality will always remain fee-free. Our goal is to create value for the ecosystem rather than extracting fees from creators."
     },
     {
       question: "Do I need technical knowledge to use the platform?",
-      answer: "Very little! If you can use a smartphone app, you can use Fund my work. We've designed the platform to be beginner-friendly, with step-by-step guides for creating a wallet and setting up a project. Our support team is also available to help with any questions."
+      answer: "Very little! If you can use a smartphone app, you can use Blossom. We've designed the platform to be beginner-friendly, with step-by-step guides for creating a wallet and setting up a project. Our support team is also available to help with any questions."
     },
     {
       question: "How do I know projects are legitimate?",

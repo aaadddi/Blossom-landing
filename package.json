@@ -1,8 +1,8 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "blossom-landing",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+    "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

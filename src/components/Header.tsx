@@ -24,7 +24,7 @@ const Header: React.FC = () => {
           <div className="flex items-center">
             <div className="flex items-center text-purple-700 font-bold text-xl">
               <Wallet className="mr-2" size={24} />
-              <span>Fund my work</span>
+              <span>Blossom</span>
             </div>
           </div>
           

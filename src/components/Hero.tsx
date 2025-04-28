@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Fund my work: <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500">Community-Powered</span> Project Funding
+              Blossom: <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500">Community-Powered</span> Project Funding
             </h1>
             <p className="text-xl text-gray-600">
               Zero fees. Direct funding. Built on Solana.

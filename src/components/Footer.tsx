@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <div className="flex items-center text-xl font-bold mb-4">
               <Wallet className="mr-2" size={24} />
-              <span>Fund my work</span>
+              <span>Blossom</span>
             </div>
             <p className="text-gray-400 mb-4">
               A zero-fee, decentralized crowdfunding platform built on Solana.
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Fund my work. All rights reserved.
+            &copy; {new Date().getFullYear()} Blossom. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-500 hover:text-gray-300 transition-colors text-sm">Terms</a>

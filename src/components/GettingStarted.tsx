@@ -8,7 +8,7 @@ const GettingStarted: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Getting Started</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            New to decentralized funding? Follow these simple steps to get started with Fund my work.
+            New to decentralized funding? Follow these simple steps to get started with Blossom.
           </p>
         </div>
         
@@ -38,7 +38,7 @@ const GettingStarted: React.FC = () => {
             </ol>
             
             <div className="mt-6 p-3 bg-purple-50 rounded-lg text-sm text-purple-700">
-              <strong>Tip:</strong> Never share your recovery phrase with anyone, not even Fund my work!
+              <strong>Tip:</strong> Never share your recovery phrase with anyone, not even Blossom!
             </div>
           </div>
           
